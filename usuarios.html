@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+</head>
+
+<body>
+    <div id="root">
+        <ul>
+            <li><h4><a href="proyectos.html"><i class="fas fa-code"></i> SpankyBot</a></h4></li>
+            <li style="float:right"><a href="registro.html">Cerrar Sesión</a></li>
+            <li style="float:right"><a href="perfil.html">Perfil</a></li>
+            <li style="float:right"><a href="proyectos.html">Más proyectos</a></li>
+            <li style="float:right"><a href="creadores.html">Creadores</a></li>
+            <li style="float:right"><a href="crear_proyecto.html">Mis Proyectos</a></li>
+          </ul>
+    </div>
+    <div class="menu">
+        <div class="dropdown">
+            <button class="dropbtn">Mis Proyectos</button>
+            <div class="dropdown-content">
+            <a href="./crear_proyecto.html">Proyectos</a>
+            <a href="./usuarios.html">Usuarios</a>
+            </div>
+          </div>
+    </div>
+
+    <div>
+
+        <div class="contenedor-crear">
+            <div class="crear2">
+                <h1>Usuarios</h1>
+                <form>
+                    <br>
+                   
+                    <table>
+                        <tr>
+                            <th>ID:</th>
+                            <th>Nombre:</th>
+                            <th>Correo:</th>
+                            <th>Rol:</th>
+                            <th>Fecha de Creación:</th>
+                            <th>Acciones:</th>
+                            
+                        </tr>
+                        <tr>
+                            <td> <p>1</p></td>
+                            <td> <p>Silva Juarez Alejandro</p></td>
+                            <td><p>cosa@cosa.gmail.com</p></td>
+                            <td> <p>Administrador</p></td>
+                            <td><p>19/10/2021</p></td>
+                            <td>
+                                <button class="button-borrar" onclick="location.href='crear_proyecto.html'"><i class="fas fa-trash-alt"></i></button>
+                            </td>
+                        </tr>
+                  
+                    </table>
+
+                </form>
+                <br>
+                <br>
+               
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
